@@ -45,7 +45,7 @@ class House {
 //    }
 
     public function __toString() {
-        return '<p>long: ' . $this->long . '<br/>width: ' . $this->width . '<br/>floors: ' . $this->floors . '<br/>color: ' . $this->color . '<br/>address: ' . $this->address . '<br/>area: ' . $this->long * $this->width . '</p>';
+        return '<p>long: ' . $this->long . '<br/>width: ' . $this->width . '<br/>floors: ' . $this->floors . '<br/>color: ' . $this->color . '<br/>address: ' . $this->address . '<br/>area: ' . $this->long * $this->width * $this->floors . '</p>';
     }
 
 }
